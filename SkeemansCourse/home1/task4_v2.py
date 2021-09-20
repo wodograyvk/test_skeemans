@@ -14,7 +14,7 @@ def que_one() :
     btn.grid(row=2)
 
     def game1(que_two):
-        if answer.get().lower() == 'Лампочка':
+        if answer.get().lower() == 'лампочка'.lower():
             que_two()
         else:
             messagebox.showerror('Ошибка!', 'Попробуй еще раз!')
@@ -28,7 +28,7 @@ def que_two():
     btn_2.grid(row=2)
 
     def game2(que_two):
-        if answer_2.get().lower() == 'елка':
+        if answer_2.get().lower() == 'елка'.lower():
             messagebox.showinfo('Победа!', 'Ты молодец!')
         else:
             messagebox.showerror('Ошибка!', 'Попробуй еще раз!')
