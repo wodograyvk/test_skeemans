@@ -8,7 +8,6 @@ import random
         ai = random.randint(1,6)
         print("The ai rolled " + str(ai) )
 
-
         if player > ai :
             print("You good, you win")
         elif player == ai :
