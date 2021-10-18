@@ -11,6 +11,5 @@ def print_stars(height) :
 
 height = int(input("input height jf triangle: "))
 print_stars(height)
-print_stars(height)
-print_stars(height)
+
 

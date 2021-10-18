@@ -18,4 +18,4 @@ def first_prime_numbers(n):
 
     return  result
 
-print(first_prime_numbers(12))
+print(first_prime_numbers(6))

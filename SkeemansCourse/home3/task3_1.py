@@ -23,7 +23,7 @@ class Bus(Vehicle):
 
 if __name__ == '__main__':
     audi_a4 = Vehicle("Audi_A4", 2014, 280)
-    Audi_A4.move()
+    audi_a4.move()
 
     Mersedes = Vehicle("Mersedes", 2008, 195)
 
@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
     some_bus = Bus('Mersedes', 2008, 70)
 
-    Audi_A4.move()
+    audi_a4.move()
     Mersedes.move()
     Dodge.move()
     some_bus.move()
